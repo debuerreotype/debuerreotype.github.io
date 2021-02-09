@@ -81,7 +81,7 @@ cat <<-EOH
 
 	This page includes checksums and reproducibility information of generated rootfs tarballs for [the latest version of the published Debian Docker official image](https://hub.docker.com/_/debian).
 
-	All the artifacts referenced on this page were built with [debuerreotype](https://github.com/debuerreotype/debuerreotype) version ${sharedMeta[debuerreotype-version]}.
+	All the artifacts referenced on this page were built with [debuerreotype](https://github.com/debuerreotype/debuerreotype) version ${sharedMeta[debuerreotype-version]} (although likely with a newer commit of \`debian.sh\` from [the \`examples/\` directory](https://github.com/debuerreotype/debuerreotype/tree/master/examples)).
 EOH
 
 echo
@@ -95,7 +95,7 @@ for arch in "${arches[@]}"; do
 done
 
 echo
-echo "- Build Command: \`./build-all.sh out/ '@${sharedMeta[debuerreotype-epoch]}'\`"
+echo "- Build Command: \`./examples/debian-all.sh --arch <dpkg-arch> out/ '@${sharedMeta[debuerreotype-epoch]}'\`"
 echo "- Snapshot URL: [${sharedMeta[snapshot-url]}](${sharedMeta[snapshot-url]%/}/)"
 
 for version in "${suites[@]}"; do
@@ -128,5 +128,5 @@ for version in "${suites[@]}"; do
 
 	echo
 	echo "- Docker Hub: [\`debian:$uniqueTag\`](https://hub.docker.com/_/debian?tab=tags&name=$uniqueTag)"
-	echo "- Build Command: \`./build.sh --arch <dpkg-arch> out/ '$version' '@${sharedMeta[debuerreotype-epoch]}'\`"
+	echo "- Build Command: \`./examples/debian.sh --arch <dpkg-arch> out/ '$version' '@${sharedMeta[debuerreotype-epoch]}'\`"
 done

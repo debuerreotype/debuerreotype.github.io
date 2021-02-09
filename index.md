@@ -6,7 +6,7 @@ layout: default
 
 This page includes checksums and reproducibility information of generated rootfs tarballs for [the latest version of the published Debian Docker official image](https://hub.docker.com/_/debian).
 
-All the artifacts referenced on this page were built with [debuerreotype](https://github.com/debuerreotype/debuerreotype) version 0.11.
+All the artifacts referenced on this page were built with [debuerreotype](https://github.com/debuerreotype/debuerreotype) version 0.11 (although likely with a newer commit of `debian.sh` from [the `examples/` directory](https://github.com/debuerreotype/debuerreotype/tree/master/examples)).
 
 | dpkg | bashbrew | artifacts |
 | - | - | - |
@@ -19,7 +19,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `ppc64el` | `ppc64le` | [70d6d92badea85b6d0afcd271a7ee84c53ded931](https://github.com/debuerreotype/docker-debian-artifacts/tree/70d6d92badea85b6d0afcd271a7ee84c53ded931) |
 | `s390x` | `s390x` | [6c32fc19d8b3134d29575d5566a4222fd44e053e](https://github.com/debuerreotype/docker-debian-artifacts/tree/6c32fc19d8b3134d29575d5566a4222fd44e053e) |
 
-- Build Command: `./build-all.sh out/ '@1612742400'`
+- Build Command: `./examples/debian-all.sh --arch <dpkg-arch> out/ '@1612742400'`
 - Snapshot URL: [http://snapshot.debian.org/archive/debian/20210208T000000Z](http://snapshot.debian.org/archive/debian/20210208T000000Z/)
 
 ## Image: `debian:bullseye`, `debian:bullseye-20210208`
@@ -36,7 +36,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6c32fc19d8b3134d29575d5566a4222fd44e053e/bullseye) | `fd29bb8205231c9d54134361c4dfaeea8cf5eff63a704c710e58c3d9301015c8` |
 
 - Docker Hub: [`debian:bullseye-20210208`](https://hub.docker.com/_/debian?tab=tags&name=bullseye-20210208)
-- Build Command: `./build.sh --arch <dpkg-arch> out/ 'bullseye' '@1612742400'`
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'bullseye' '@1612742400'`
 
 ## Image: `debian:buster`, `debian:buster-20210208`, `debian:10.8`, `debian:10`, `debian:latest`
 
@@ -52,7 +52,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6c32fc19d8b3134d29575d5566a4222fd44e053e/buster) | `1ba311536784390799fe04661805f1b22aa093aa9c72c7925d5594c7b3e3fc1e` |
 
 - Docker Hub: [`debian:buster-20210208`](https://hub.docker.com/_/debian?tab=tags&name=buster-20210208)
-- Build Command: `./build.sh --arch <dpkg-arch> out/ 'buster' '@1612742400'`
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'buster' '@1612742400'`
 
 ## Image: `debian:jessie`, `debian:jessie-20210208`, `debian:8.11`, `debian:8`
 
@@ -64,7 +64,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/5e97d7d3bbe2e01aaf6a74797142a770cee31430/jessie) | `d282763632f7fd671a2c4b03952cd054f6d51ca6400408059e9e6a24ef59f836` |
 
 - Docker Hub: [`debian:jessie-20210208`](https://hub.docker.com/_/debian?tab=tags&name=jessie-20210208)
-- Build Command: `./build.sh --arch <dpkg-arch> out/ 'jessie' '@1612742400'`
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'jessie' '@1612742400'`
 
 ## Image: `debian:oldoldstable`, `debian:oldoldstable-20210208`
 
@@ -76,7 +76,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/5e97d7d3bbe2e01aaf6a74797142a770cee31430/oldoldstable) | `6c78d64037d800569238fc687737841ba1d209bd11f4e26c961412ca7367ee0d` |
 
 - Docker Hub: [`debian:oldoldstable-20210208`](https://hub.docker.com/_/debian?tab=tags&name=oldoldstable-20210208)
-- Build Command: `./build.sh --arch <dpkg-arch> out/ 'oldoldstable' '@1612742400'`
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'oldoldstable' '@1612742400'`
 
 ## Image: `debian:oldstable`, `debian:oldstable-20210208`
 
@@ -89,7 +89,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/5e97d7d3bbe2e01aaf6a74797142a770cee31430/oldstable) | `2057c0f6198e4fa8fe166ebb1380134282ac9c82bf106c67992d2636164afd2b` |
 
 - Docker Hub: [`debian:oldstable-20210208`](https://hub.docker.com/_/debian?tab=tags&name=oldstable-20210208)
-- Build Command: `./build.sh --arch <dpkg-arch> out/ 'oldstable' '@1612742400'`
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'oldstable' '@1612742400'`
 
 ## Image: `debian:sid`, `debian:sid-20210208`
 
@@ -105,7 +105,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6c32fc19d8b3134d29575d5566a4222fd44e053e/sid) | `27f0a89d20be8f4de9a308652de6e213c23b6c521524eb4621b5807bf33e572d` |
 
 - Docker Hub: [`debian:sid-20210208`](https://hub.docker.com/_/debian?tab=tags&name=sid-20210208)
-- Build Command: `./build.sh --arch <dpkg-arch> out/ 'sid' '@1612742400'`
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'sid' '@1612742400'`
 
 ## Image: `debian:stable`, `debian:stable-20210208`
 
@@ -121,7 +121,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6c32fc19d8b3134d29575d5566a4222fd44e053e/stable) | `d5f1b20cb61f779eb5b611f465fa53d91b643597291494de1e08952016b70503` |
 
 - Docker Hub: [`debian:stable-20210208`](https://hub.docker.com/_/debian?tab=tags&name=stable-20210208)
-- Build Command: `./build.sh --arch <dpkg-arch> out/ 'stable' '@1612742400'`
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'stable' '@1612742400'`
 
 ## Image: `debian:stretch`, `debian:stretch-20210208`, `debian:9.13`, `debian:9`
 
@@ -134,7 +134,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/5e97d7d3bbe2e01aaf6a74797142a770cee31430/stretch) | `954bca8842d0681cf65217f036b0397ce66fd90a7507a252fee00382e9709277` |
 
 - Docker Hub: [`debian:stretch-20210208`](https://hub.docker.com/_/debian?tab=tags&name=stretch-20210208)
-- Build Command: `./build.sh --arch <dpkg-arch> out/ 'stretch' '@1612742400'`
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'stretch' '@1612742400'`
 
 ## Image: `debian:testing`, `debian:testing-20210208`
 
@@ -150,7 +150,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6c32fc19d8b3134d29575d5566a4222fd44e053e/testing) | `1644db372bfcc933a25fa5ee8f16abc5d2d023f1ef3b98d4a6bf006418eac3bd` |
 
 - Docker Hub: [`debian:testing-20210208`](https://hub.docker.com/_/debian?tab=tags&name=testing-20210208)
-- Build Command: `./build.sh --arch <dpkg-arch> out/ 'testing' '@1612742400'`
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'testing' '@1612742400'`
 
 ## Image: `debian:unstable`, `debian:unstable-20210208`
 
@@ -166,4 +166,4 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6c32fc19d8b3134d29575d5566a4222fd44e053e/unstable) | `d853bd538ce16c9d109e5427d33798e8cc1e10a1ab6ad60dceb8f53667bba9dd` |
 
 - Docker Hub: [`debian:unstable-20210208`](https://hub.docker.com/_/debian?tab=tags&name=unstable-20210208)
-- Build Command: `./build.sh --arch <dpkg-arch> out/ 'unstable' '@1612742400'`
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'unstable' '@1612742400'`
