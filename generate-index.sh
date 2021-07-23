@@ -54,6 +54,9 @@ for arch in "${arches[@]}"; do
 
 	for metaKey in "${!sharedMeta[@]}"; do
 		archMeta="$(_wget "$rawGitUrl/$commit/$metaKey" || :)"
+		if [ "$metaKey" = 'snapshot-url' ]; then
+			archMeta="${archMeta//debian-ports/debian}" # normalize "debian-ports" (so ports arches still match and so we clearly prefer non-ports URLs)
+		fi
 		: "${sharedMeta[$metaKey]:=$archMeta}"
 		if [ "${sharedMeta[$metaKey]}" != "$archMeta" ]; then
 			echo >&2 "error: '$arch' has inconsistent $metaKey '$archMeta'! (from '${sharedMeta[$metaKey]}')"
