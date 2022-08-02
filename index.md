@@ -10,145 +10,145 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 
 | dpkg | bashbrew | artifacts |
 | - | - | - |
-| `amd64` | `amd64` | [6251ccd8060ae10b12bd881975cf37eee84ffbb0](https://github.com/debuerreotype/docker-debian-artifacts/tree/6251ccd8060ae10b12bd881975cf37eee84ffbb0) |
-| `armel` | `arm32v5` | [69cb1ad57e70fa1adb616c3fc6c697eea5c6f28a](https://github.com/debuerreotype/docker-debian-artifacts/tree/69cb1ad57e70fa1adb616c3fc6c697eea5c6f28a) |
-| `armhf` | `arm32v7` | [4e8b21152c584173323cf9ed1c1b0646cc75a1c4](https://github.com/debuerreotype/docker-debian-artifacts/tree/4e8b21152c584173323cf9ed1c1b0646cc75a1c4) |
-| `arm64` | `arm64v8` | [dabf1e7f5c7790135cdbc40b2b4c310124973778](https://github.com/debuerreotype/docker-debian-artifacts/tree/dabf1e7f5c7790135cdbc40b2b4c310124973778) |
-| `i386` | `i386` | [b0e7cf4cef3aa0b9f42ad670beac9f7645cd9924](https://github.com/debuerreotype/docker-debian-artifacts/tree/b0e7cf4cef3aa0b9f42ad670beac9f7645cd9924) |
-| `mips64el` | `mips64le` | [251a0b84553e89406a58dd437a422b5c16fb668b](https://github.com/debuerreotype/docker-debian-artifacts/tree/251a0b84553e89406a58dd437a422b5c16fb668b) |
-| `ppc64el` | `ppc64le` | [1e5984ac1b6b379d00301cd00f7777c3f5f208a3](https://github.com/debuerreotype/docker-debian-artifacts/tree/1e5984ac1b6b379d00301cd00f7777c3f5f208a3) |
-| `riscv64` | `riscv64` | [d1cc2c7cf91e40deee4dba9301690a88e859796c](https://github.com/debuerreotype/docker-debian-artifacts/tree/d1cc2c7cf91e40deee4dba9301690a88e859796c) |
-| `s390x` | `s390x` | [8e4aac11130a083704f092a19623511f6d1d35c9](https://github.com/debuerreotype/docker-debian-artifacts/tree/8e4aac11130a083704f092a19623511f6d1d35c9) |
+| `amd64` | `amd64` | [686d9f6eaada08a754bc7abf6f6184c65c5b378f](https://github.com/debuerreotype/docker-debian-artifacts/tree/686d9f6eaada08a754bc7abf6f6184c65c5b378f) |
+| `armel` | `arm32v5` | [155640b6e2e249dfaeee8795d5de539ef3e49417](https://github.com/debuerreotype/docker-debian-artifacts/tree/155640b6e2e249dfaeee8795d5de539ef3e49417) |
+| `armhf` | `arm32v7` | [60ff0c2c6ce9556e5d8a2758dd2b3f3731716a6f](https://github.com/debuerreotype/docker-debian-artifacts/tree/60ff0c2c6ce9556e5d8a2758dd2b3f3731716a6f) |
+| `arm64` | `arm64v8` | [2f108af35e22064c848b8628a7cac56192246dba](https://github.com/debuerreotype/docker-debian-artifacts/tree/2f108af35e22064c848b8628a7cac56192246dba) |
+| `i386` | `i386` | [e4db8aa97f4366e6f27ddbdeaed0773fe0288d47](https://github.com/debuerreotype/docker-debian-artifacts/tree/e4db8aa97f4366e6f27ddbdeaed0773fe0288d47) |
+| `mips64el` | `mips64le` | [e28cbd76dcfba10446b1722aebb5a996121e3d27](https://github.com/debuerreotype/docker-debian-artifacts/tree/e28cbd76dcfba10446b1722aebb5a996121e3d27) |
+| `ppc64el` | `ppc64le` | [3ba08903ca3fd48fe59ba92b02744a2f5d4d9d6f](https://github.com/debuerreotype/docker-debian-artifacts/tree/3ba08903ca3fd48fe59ba92b02744a2f5d4d9d6f) |
+| `riscv64` | `riscv64` | [d8fc3900a6b9c1d571bc8a196954224f6a113ebb](https://github.com/debuerreotype/docker-debian-artifacts/tree/d8fc3900a6b9c1d571bc8a196954224f6a113ebb) |
+| `s390x` | `s390x` | [2fddbf8fe632fc5865b140341b68a1358586fff2](https://github.com/debuerreotype/docker-debian-artifacts/tree/2fddbf8fe632fc5865b140341b68a1358586fff2) |
 
-- Build Command: `./examples/debian-all.sh --arch <dpkg-arch> out/ '@1657497600'`
-- Snapshot URL: [http://snapshot.debian.org/archive/debian/20220711T000000Z](http://snapshot.debian.org/archive/debian/20220711T000000Z/)
+- Build Command: `./examples/debian-all.sh --arch <dpkg-arch> out/ '@1659312000'`
+- Snapshot URL: [http://snapshot.debian.org/archive/debian/20220801T000000Z](http://snapshot.debian.org/archive/debian/20220801T000000Z/)
 
-## Image: `debian:bookworm`, `debian:bookworm-20220711`
-
-| dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
-| - | - | - | - |
-| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6251ccd8060ae10b12bd881975cf37eee84ffbb0/bookworm) | `18c435071b8acad630731d54c2f0dc3467c1b75915af41f7e8f80418241b1389` |
-| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/69cb1ad57e70fa1adb616c3fc6c697eea5c6f28a/bookworm) | `f21d8852b46e7252b26072fe2d435ee2578ad9581a153acce8dd523337294d59` |
-| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/4e8b21152c584173323cf9ed1c1b0646cc75a1c4/bookworm) | `ebdf84654569cd2a4c380440e4aef904eb529d7be25e0494bf43b6b09dd6621e` |
-| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/dabf1e7f5c7790135cdbc40b2b4c310124973778/bookworm) | `89b3bd9a5f9fa938e50490c1e0e28847459276293e08d89ff5116022766f244b` |
-| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/b0e7cf4cef3aa0b9f42ad670beac9f7645cd9924/bookworm) | `2860bb3af42b15e2ab3f43f6b035b7917a22edb545258c5e436cd04e0a52f100` |
-| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/251a0b84553e89406a58dd437a422b5c16fb668b/bookworm) | `978e7d02e3064c0a5090a6aeb05da83063f190238b2c5406c1f5ce96aee1d235` |
-| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/1e5984ac1b6b379d00301cd00f7777c3f5f208a3/bookworm) | `38bac405e4e855f8e104d824706a7639c96b5ac301f715b900277aebd93dcff4` |
-| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/8e4aac11130a083704f092a19623511f6d1d35c9/bookworm) | `9123c86fe67889ece00fd65cc749d85e16e2b3030e0cb8c5db7dbf674dd64596` |
-
-- Docker Hub: [`debian:bookworm-20220711`](https://hub.docker.com/_/debian?tab=tags&name=bookworm-20220711)
-- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'bookworm' '@1657497600'`
-
-## Image: `debian:bullseye`, `debian:bullseye-20220711`, `debian:11.4`, `debian:11`, `debian:latest`
+## Image: `debian:bookworm`, `debian:bookworm-20220801`
 
 | dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
 | - | - | - | - |
-| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6251ccd8060ae10b12bd881975cf37eee84ffbb0/bullseye) | `434b99333256b505439981a4e20f3f89c5f02499cb340b4cbf87f5c465fa65ac` |
-| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/69cb1ad57e70fa1adb616c3fc6c697eea5c6f28a/bullseye) | `a4a0f0c4206996c1c6561f17b0a9d4e1a4a86772796d0b43adb573cba34234ce` |
-| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/4e8b21152c584173323cf9ed1c1b0646cc75a1c4/bullseye) | `533ad548351624e459d4ab945b790cb2b05a64ef508e3fd9a52aac9c87f77e1c` |
-| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/dabf1e7f5c7790135cdbc40b2b4c310124973778/bullseye) | `59da77fb1ba36e785ed78d2c8caae776426a398cd96517f7e7fb8db24763b099` |
-| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/b0e7cf4cef3aa0b9f42ad670beac9f7645cd9924/bullseye) | `a87f73898245886518864f23229f8b8c9ec9572d2a79d51bc164aae4e3883f43` |
-| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/251a0b84553e89406a58dd437a422b5c16fb668b/bullseye) | `2d55abc48ec7cc5ef4f0f64bf772d9adf5c36c81cbcc63eb61bcaa1b22b116ef` |
-| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/1e5984ac1b6b379d00301cd00f7777c3f5f208a3/bullseye) | `1477a81a889a867938fb348be1921970ecc96892b2b690dae5550de85698d1d7` |
-| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/8e4aac11130a083704f092a19623511f6d1d35c9/bullseye) | `8e4e2928531924fdc7524e45bd0d9b443065857040de806d05df454695a5aa22` |
+| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/686d9f6eaada08a754bc7abf6f6184c65c5b378f/bookworm) | `1a4e7146ae41b89a630f1df73e7f957d0476eda19537854a50f05dc1e85117ec` |
+| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/155640b6e2e249dfaeee8795d5de539ef3e49417/bookworm) | `81f7fee51373983cee35c230971f4605c32e3e5391f6b8799e093a8c4a12c75c` |
+| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/60ff0c2c6ce9556e5d8a2758dd2b3f3731716a6f/bookworm) | `5d00d6790f543f2a5bb8e963341d9573d07d59dcc1b9a158d51d6aa20cc0a642` |
+| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2f108af35e22064c848b8628a7cac56192246dba/bookworm) | `e4efeeffa709b1663f74feec8acfdc0d625c42e254ba49824cf842158e11b585` |
+| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e4db8aa97f4366e6f27ddbdeaed0773fe0288d47/bookworm) | `23b3437a7e7da330d383d31ebe14b2018e47116e148ef60e4abff9203eee04a7` |
+| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e28cbd76dcfba10446b1722aebb5a996121e3d27/bookworm) | `c4fdee1ff0d6b8d9f21c9fed562dff29aeb2568e4903c2d87837e8055fe746da` |
+| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/3ba08903ca3fd48fe59ba92b02744a2f5d4d9d6f/bookworm) | `376ae7123e4e9247ef168c28a1be809bbd7a81e60df7588d0fb77be13d767cb0` |
+| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2fddbf8fe632fc5865b140341b68a1358586fff2/bookworm) | `0a750dc1f983d5852d22757bc0f6b3d727fcbd1a1e5b23abfe6b5ed6f7b1c95d` |
 
-- Docker Hub: [`debian:bullseye-20220711`](https://hub.docker.com/_/debian?tab=tags&name=bullseye-20220711)
-- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'bullseye' '@1657497600'`
+- Docker Hub: [`debian:bookworm-20220801`](https://hub.docker.com/_/debian?tab=tags&name=bookworm-20220801)
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'bookworm' '@1659312000'`
 
-## Image: `debian:buster`, `debian:buster-20220711`, `debian:10.12`, `debian:10`
-
-| dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
-| - | - | - | - |
-| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6251ccd8060ae10b12bd881975cf37eee84ffbb0/buster) | `380d33e9a7d235d9566cd313c89050e412a550a183d5980065c96629b8b50155` |
-| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/69cb1ad57e70fa1adb616c3fc6c697eea5c6f28a/buster) | `ce0fbb0e5ff18e15cc6eaf134a29e04e4ed9fc2abf7927141c82c59fc5b2228c` |
-| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/4e8b21152c584173323cf9ed1c1b0646cc75a1c4/buster) | `8b3b5a1001b9f9fefbc16bb7348d3a18cb948aee614cdf370d6e2e9f709a817c` |
-| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/dabf1e7f5c7790135cdbc40b2b4c310124973778/buster) | `aa60b1f3d8fbb79383da72d9a94f108417a47467a86cbc3ee2bf3507f1d466d3` |
-| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/b0e7cf4cef3aa0b9f42ad670beac9f7645cd9924/buster) | `98b9ca4b61a6ff1591c7c30c7af127744d13ca32ecd7f7c4b7db9c9f3f7a7312` |
-| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/251a0b84553e89406a58dd437a422b5c16fb668b/buster) | `0abeb73acaeb9850578d9646bd73871e8a5a2287f704f6b141f8ae8b33799fbd` |
-| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/1e5984ac1b6b379d00301cd00f7777c3f5f208a3/buster) | `ce46fdb563482215395e6c81f1fb848c61ea8dcb5382d9411c2856b00f83c727` |
-| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/8e4aac11130a083704f092a19623511f6d1d35c9/buster) | `089ed27adc0c9d12fb0a16f3c18696b10961bb0aba549aa907f279bfadcaf4bd` |
-
-- Docker Hub: [`debian:buster-20220711`](https://hub.docker.com/_/debian?tab=tags&name=buster-20220711)
-- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'buster' '@1657497600'`
-
-## Image: `debian:oldstable`, `debian:oldstable-20220711`
+## Image: `debian:bullseye`, `debian:bullseye-20220801`, `debian:11.4`, `debian:11`, `debian:latest`
 
 | dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
 | - | - | - | - |
-| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6251ccd8060ae10b12bd881975cf37eee84ffbb0/oldstable) | `90c022ace44c6b9f3cc782fc6f7ac0b5436c30a3b1a0f4a0db287443d1cee320` |
-| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/69cb1ad57e70fa1adb616c3fc6c697eea5c6f28a/oldstable) | `599839f443609d9754d1c177edaabc920460f05da4de0f512c2e3d22628a9b63` |
-| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/4e8b21152c584173323cf9ed1c1b0646cc75a1c4/oldstable) | `796c7abf833d9e8adc05d560242cfd1ada052c0fbb6f61712626c47bb4d14409` |
-| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/dabf1e7f5c7790135cdbc40b2b4c310124973778/oldstable) | `e59a585ca2f3145a8091001bbe3d719349ea33366bbf15fca6b4374810a2f0d5` |
-| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/b0e7cf4cef3aa0b9f42ad670beac9f7645cd9924/oldstable) | `6ed8d7d67225a995b41ede020febb21893f7cf084c94fa04723bea62679aa6b2` |
-| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/251a0b84553e89406a58dd437a422b5c16fb668b/oldstable) | `c4eb189b6bee3bbdbb710d2d7fa953bef0af1a59c2775802ebaf19a0d9f6b966` |
-| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/1e5984ac1b6b379d00301cd00f7777c3f5f208a3/oldstable) | `ff8cb749151f5933e2ed776c042b73336690f15032cd18466cbd5f02da525725` |
-| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/8e4aac11130a083704f092a19623511f6d1d35c9/oldstable) | `461a18ee93a56262d585df71a57c30fb6ee5a4c49ef4bbbb9b6e4db2d7b2e55e` |
+| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/686d9f6eaada08a754bc7abf6f6184c65c5b378f/bullseye) | `4aa2452b21644ce28aa960c01e4cc5b3df3e022ef2d424c76f26b5c4b8684747` |
+| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/155640b6e2e249dfaeee8795d5de539ef3e49417/bullseye) | `7d2cb5eb29d9c173cd730443bb5d3a0a2898284cf648d16b6acc49bd811db255` |
+| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/60ff0c2c6ce9556e5d8a2758dd2b3f3731716a6f/bullseye) | `c03be75a26f81dd90900c2389da33a9c6f36d938dfef86f9c33aaaf6b80c1fd1` |
+| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2f108af35e22064c848b8628a7cac56192246dba/bullseye) | `bb1696e1eb9e1997ec072cbfb671587218fdebabcd65ca43b29bd7ec3a9e80bb` |
+| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e4db8aa97f4366e6f27ddbdeaed0773fe0288d47/bullseye) | `b477ee1f643834ddf68e7915bf43428b96802bca0464347b788d841ef6c8d72e` |
+| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e28cbd76dcfba10446b1722aebb5a996121e3d27/bullseye) | `28b60bf33a7fd2d891f486025b390fa4cd716a87ceb61921ee99523d25738156` |
+| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/3ba08903ca3fd48fe59ba92b02744a2f5d4d9d6f/bullseye) | `a58716238e59d0173ac0195d28e4ca54ead257e7ec018d02344a871ad03bd888` |
+| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2fddbf8fe632fc5865b140341b68a1358586fff2/bullseye) | `f71a0cfde24b8a549579c84a456eb443dbd0d813a60341dba7ef12d4c9459413` |
 
-- Docker Hub: [`debian:oldstable-20220711`](https://hub.docker.com/_/debian?tab=tags&name=oldstable-20220711)
-- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'oldstable' '@1657497600'`
+- Docker Hub: [`debian:bullseye-20220801`](https://hub.docker.com/_/debian?tab=tags&name=bullseye-20220801)
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'bullseye' '@1659312000'`
 
-## Image: `debian:sid`, `debian:sid-20220711`
-
-| dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
-| - | - | - | - |
-| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6251ccd8060ae10b12bd881975cf37eee84ffbb0/sid) | `9d4fa7af4da557a03083f0e1175495fb0629696fbe0dc5a36716c51d2a32856b` |
-| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/69cb1ad57e70fa1adb616c3fc6c697eea5c6f28a/sid) | `099f4bc880a1d357099b47dc8d53396a39756ac6964fc531f7c9cd1d806596c5` |
-| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/4e8b21152c584173323cf9ed1c1b0646cc75a1c4/sid) | `718969ab68e21a0dff3d8eaf39480b5f8d55afe49204546a5624987cca89523c` |
-| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/dabf1e7f5c7790135cdbc40b2b4c310124973778/sid) | `085dfde5089738eb2ffa927930dc506feaa8686fd7825e4fcbef3bd5aa796550` |
-| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/b0e7cf4cef3aa0b9f42ad670beac9f7645cd9924/sid) | `61025fd1e0a4efe8364ca202b43549392dd095d4692169dd040ebfbf5b702c8c` |
-| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/251a0b84553e89406a58dd437a422b5c16fb668b/sid) | `62b5bb997f5d897de10dc8248507b4ecab26c3deffdeba9fe660001723397220` |
-| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/1e5984ac1b6b379d00301cd00f7777c3f5f208a3/sid) | `f1796558a5d07a2e198bb6a8eb143b8a977393ee67e168d2a027c11ee48bec4d` |
-| `riscv64` | `riscv64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/d1cc2c7cf91e40deee4dba9301690a88e859796c/sid) | `371153fa23af7777272d27d067d6a0431dd40fce9c30edbb7684a1329d4acfbc` |
-| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/8e4aac11130a083704f092a19623511f6d1d35c9/sid) | `40c94cdc98d692625a224d6014eafee14f695af7154230205fc9b7b2d3aeaf4f` |
-
-- Docker Hub: [`debian:sid-20220711`](https://hub.docker.com/_/debian?tab=tags&name=sid-20220711)
-- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'sid' '@1657497600'`
-
-## Image: `debian:stable`, `debian:stable-20220711`
+## Image: `debian:buster`, `debian:buster-20220801`, `debian:10.12`, `debian:10`
 
 | dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
 | - | - | - | - |
-| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6251ccd8060ae10b12bd881975cf37eee84ffbb0/stable) | `d508eb9b6db9c929b5a5182b9c30127fbd38214474e8edbf1187491a83591ee8` |
-| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/69cb1ad57e70fa1adb616c3fc6c697eea5c6f28a/stable) | `6de33bd03c93c216f0b2dfd321f41f0a78bbb093398c1c8eead1763aebd93d78` |
-| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/4e8b21152c584173323cf9ed1c1b0646cc75a1c4/stable) | `0ee2ea1c3f9fc262863d0cacbf42f2c8cb29b149128efa663cd2864fdf4ae053` |
-| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/dabf1e7f5c7790135cdbc40b2b4c310124973778/stable) | `e1728ea6bdc0a8fbc57e565c2aed5f14f09b96d719c9e519014009dd8daea501` |
-| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/b0e7cf4cef3aa0b9f42ad670beac9f7645cd9924/stable) | `1df06978d2f67d274d6d40eac5f7a8c94b60442e72949bbd171df06c8f98a2e9` |
-| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/251a0b84553e89406a58dd437a422b5c16fb668b/stable) | `67242038fb67c2d2dce3f02370d7fbd684dd9ca789364ce2b04f5ed16de1bcf3` |
-| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/1e5984ac1b6b379d00301cd00f7777c3f5f208a3/stable) | `217ba9a3ec5285765d48c94504f22a9d246a380243d548595cf34b33b4a427fe` |
-| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/8e4aac11130a083704f092a19623511f6d1d35c9/stable) | `3aebd3b869b0767fefb8ca1c62764d87dcef030da05c4971a2670a2036b5ccbc` |
+| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/686d9f6eaada08a754bc7abf6f6184c65c5b378f/buster) | `1bffa60d813bce01d1f8c401bd2deed2cac86b682d71e2d580bad6b3adca91f2` |
+| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/155640b6e2e249dfaeee8795d5de539ef3e49417/buster) | `41d6601c702676d17f0ce30d1d959242212686e8e75ecf42269b14065b238577` |
+| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/60ff0c2c6ce9556e5d8a2758dd2b3f3731716a6f/buster) | `5de15a538034858e52f7dc052015e14f276e4bb401497db40bba97a6c26aa1bc` |
+| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2f108af35e22064c848b8628a7cac56192246dba/buster) | `053372b8b3f5dab68f0d23893c03989685bb4b1f7829316745b37ae67204f975` |
+| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e4db8aa97f4366e6f27ddbdeaed0773fe0288d47/buster) | `cddbe53b0d50f9640459166dde70804035db925a4e9411b0b4f4b20b7930bf9a` |
+| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e28cbd76dcfba10446b1722aebb5a996121e3d27/buster) | `22e85775cad32e673abb9257ad952030ff8fb238f8d500d17fbd3d3dc9028f83` |
+| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/3ba08903ca3fd48fe59ba92b02744a2f5d4d9d6f/buster) | `2b79721bae74f3252bccc2769081655d14f766552a9408b54ce99ec828185251` |
+| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2fddbf8fe632fc5865b140341b68a1358586fff2/buster) | `91299dac7c56000ac45490b89efe7eb554f7bb0e1056db6a9f78c66d954f84f1` |
 
-- Docker Hub: [`debian:stable-20220711`](https://hub.docker.com/_/debian?tab=tags&name=stable-20220711)
-- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'stable' '@1657497600'`
+- Docker Hub: [`debian:buster-20220801`](https://hub.docker.com/_/debian?tab=tags&name=buster-20220801)
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'buster' '@1659312000'`
 
-## Image: `debian:testing`, `debian:testing-20220711`
-
-| dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
-| - | - | - | - |
-| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6251ccd8060ae10b12bd881975cf37eee84ffbb0/testing) | `c8f2851a32e73e4d43bbf8002e6696adea72ec9fe770481ef290ab61ab22343a` |
-| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/69cb1ad57e70fa1adb616c3fc6c697eea5c6f28a/testing) | `a5850ae13d5d623148f3a01fd8e51144a071030032d7ce074209a596f1e150f7` |
-| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/4e8b21152c584173323cf9ed1c1b0646cc75a1c4/testing) | `83963340c40f7443068125bf5eb03e23362c15d9f0ee9a750329cfa1ecf1fcc9` |
-| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/dabf1e7f5c7790135cdbc40b2b4c310124973778/testing) | `46b44d96a880e402cc0081485899fa2258402e8cda3ca6cb8ed44872ab32154c` |
-| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/b0e7cf4cef3aa0b9f42ad670beac9f7645cd9924/testing) | `51ad35577656e582431214bb94d271d7f0a4d1e90fcc2f53cd35930ca0423bff` |
-| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/251a0b84553e89406a58dd437a422b5c16fb668b/testing) | `744e357a3112b37677bc33d44a4ee22cc96329648c6f4ab31e05a4df04b35bab` |
-| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/1e5984ac1b6b379d00301cd00f7777c3f5f208a3/testing) | `d11283bbd00ccf56d8cdcea0cd711c7a5e5d1e0377139becc5618a04d58a2777` |
-| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/8e4aac11130a083704f092a19623511f6d1d35c9/testing) | `d1446430c94d43732a3cf01c01eb1826cc7f2c180a98741bae5ae8a86e973ea9` |
-
-- Docker Hub: [`debian:testing-20220711`](https://hub.docker.com/_/debian?tab=tags&name=testing-20220711)
-- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'testing' '@1657497600'`
-
-## Image: `debian:unstable`, `debian:unstable-20220711`
+## Image: `debian:oldstable`, `debian:oldstable-20220801`
 
 | dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
 | - | - | - | - |
-| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/6251ccd8060ae10b12bd881975cf37eee84ffbb0/unstable) | `c0fb912e96a59e6c684b33d19a4a2a2afea65e4348178ad7dad4655b4c52d524` |
-| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/69cb1ad57e70fa1adb616c3fc6c697eea5c6f28a/unstable) | `75e3abb9a88f1f94c5073226877cd63a6a9b58b416194b15efb62af625a54980` |
-| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/4e8b21152c584173323cf9ed1c1b0646cc75a1c4/unstable) | `f49afaf00dc90f5d0109c16eed3d6e8f69ad1cc13d987d2cba0c4b8202f3c03f` |
-| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/dabf1e7f5c7790135cdbc40b2b4c310124973778/unstable) | `633bf0e57410809a5dfd5ad20378f4a164177464ec62506426cfa0fba908ef2a` |
-| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/b0e7cf4cef3aa0b9f42ad670beac9f7645cd9924/unstable) | `646329bd09c5f9988d29e730ae9ad0874643256ca28d0f640465fe6add997723` |
-| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/251a0b84553e89406a58dd437a422b5c16fb668b/unstable) | `bd896ede6cf239f2d61c4470eed6207dc99abb7a2cb42abf7eae12a3f8c6ca62` |
-| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/1e5984ac1b6b379d00301cd00f7777c3f5f208a3/unstable) | `9df70b4b94daa6dec3e24db8ca19f35849c9ca65adec813c60a3a4ad8b4636d8` |
-| `riscv64` | `riscv64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/d1cc2c7cf91e40deee4dba9301690a88e859796c/unstable) | `2e94fad943bf24b94bb3df1fd62c96194e3d452d6701ece08130c282b55ca7d7` |
-| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/8e4aac11130a083704f092a19623511f6d1d35c9/unstable) | `3416b71afe57f3464734f58aa5cdfb426f12c069a9a7db66b85043b3198d52e3` |
+| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/686d9f6eaada08a754bc7abf6f6184c65c5b378f/oldstable) | `2aceca6e6dc5fe5f16f628b0b527f237447845a4cf821cdce31e785f2d228df0` |
+| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/155640b6e2e249dfaeee8795d5de539ef3e49417/oldstable) | `82126ef39ef934fd882ca9f8a3f9ca488b9dba52e970d6ad4c65164c9859f355` |
+| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/60ff0c2c6ce9556e5d8a2758dd2b3f3731716a6f/oldstable) | `9a0c77d2f7e907f6c5ede4d48cfa2c04d4d3827a0c8bf83e3c50f4075764b1be` |
+| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2f108af35e22064c848b8628a7cac56192246dba/oldstable) | `efeec807619d95c28b50abd92c5230c3e0c3b5981c2a49e8503824d3169c9b57` |
+| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e4db8aa97f4366e6f27ddbdeaed0773fe0288d47/oldstable) | `b59223d55a39811be761387cb4b727c6e77ee0efc7a47ece3da73511f6ae0839` |
+| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e28cbd76dcfba10446b1722aebb5a996121e3d27/oldstable) | `daf7119beb74f9cd7b72e6584040f07cd0206a2430e86a518bf47e8db5c3ad35` |
+| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/3ba08903ca3fd48fe59ba92b02744a2f5d4d9d6f/oldstable) | `27debdfb03f1639896c2772d94b6b0ca3ee8557c6c2dec05b988774cceee9de3` |
+| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2fddbf8fe632fc5865b140341b68a1358586fff2/oldstable) | `251e91dd1721bbe276edfe448bf1ee09dca150b1bd3d3852b7c01393b0c76bee` |
 
-- Docker Hub: [`debian:unstable-20220711`](https://hub.docker.com/_/debian?tab=tags&name=unstable-20220711)
-- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'unstable' '@1657497600'`
+- Docker Hub: [`debian:oldstable-20220801`](https://hub.docker.com/_/debian?tab=tags&name=oldstable-20220801)
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'oldstable' '@1659312000'`
+
+## Image: `debian:sid`, `debian:sid-20220801`
+
+| dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
+| - | - | - | - |
+| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/686d9f6eaada08a754bc7abf6f6184c65c5b378f/sid) | `65957df3a796be276d34f277d02e6f08b5c4553b512822aeea5b90882739beb3` |
+| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/155640b6e2e249dfaeee8795d5de539ef3e49417/sid) | `0a2e50abf50fc3c00a6b68fb985688f09576ca1c6e1ef8fd205c56cf5c491fa8` |
+| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/60ff0c2c6ce9556e5d8a2758dd2b3f3731716a6f/sid) | `c02bfa637f01fc9ef03659b82b342e3b1e93f54e2529df2db9f3049dcb6c01e6` |
+| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2f108af35e22064c848b8628a7cac56192246dba/sid) | `3b63d1de6371231f3c37fbf6741dd9f8ed8da508c902d5226bf57df4d612e2ac` |
+| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e4db8aa97f4366e6f27ddbdeaed0773fe0288d47/sid) | `c668e363a5f1e3d869830116eacb6d35e25dc5db99895ee52d422a561c8e9e7d` |
+| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e28cbd76dcfba10446b1722aebb5a996121e3d27/sid) | `f08e915258cc8fe9866049b6a677ccafe4da5c7f551138fbe645db5d7149099f` |
+| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/3ba08903ca3fd48fe59ba92b02744a2f5d4d9d6f/sid) | `2f9f4f531120af310771d0f96988b896d1e535c50413a0f855b033eaa8166653` |
+| `riscv64` | `riscv64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/d8fc3900a6b9c1d571bc8a196954224f6a113ebb/sid) | `9a0afd6787eceb2992438dd77d7ee09d86a040aa2124b8a10d0bb3b6ef07e77d` |
+| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2fddbf8fe632fc5865b140341b68a1358586fff2/sid) | `6f937c5e7ce1a597b292383723babdcb90eebad70d14d631ee5ce99cef1a14e4` |
+
+- Docker Hub: [`debian:sid-20220801`](https://hub.docker.com/_/debian?tab=tags&name=sid-20220801)
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'sid' '@1659312000'`
+
+## Image: `debian:stable`, `debian:stable-20220801`
+
+| dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
+| - | - | - | - |
+| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/686d9f6eaada08a754bc7abf6f6184c65c5b378f/stable) | `adb9c14e639844ba59cc179f05455c76e5bf6c4083205902037c3a8b2b3f7842` |
+| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/155640b6e2e249dfaeee8795d5de539ef3e49417/stable) | `33f2d48ab263d51c77428a2ff408b981711f1ab4330468f0d220ff43fa7c4695` |
+| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/60ff0c2c6ce9556e5d8a2758dd2b3f3731716a6f/stable) | `7fc13f4fe3760cdca07a43821d3295c873a22bd973972760fb83a5ab1559ba63` |
+| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2f108af35e22064c848b8628a7cac56192246dba/stable) | `4267f76e57f73a4542fd00d405fe06eb403412e809b86d152f9b0dd39fa20e47` |
+| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e4db8aa97f4366e6f27ddbdeaed0773fe0288d47/stable) | `327d73ed6558979c470ae95e1c48a20ed869788fbcc7510c0a57c703932c08c6` |
+| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e28cbd76dcfba10446b1722aebb5a996121e3d27/stable) | `63e9a16f905063166ae0e13043cf49674e0a0e86feeca64b3afb1430ca3a2431` |
+| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/3ba08903ca3fd48fe59ba92b02744a2f5d4d9d6f/stable) | `4a3e2720d3e0273d599dd5d664b052844e21b5285c967272f1590920629caa48` |
+| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2fddbf8fe632fc5865b140341b68a1358586fff2/stable) | `29ee3130fe2cc591e347aefde30dbb3ffe49e4efbba0b0a2994c7719da833416` |
+
+- Docker Hub: [`debian:stable-20220801`](https://hub.docker.com/_/debian?tab=tags&name=stable-20220801)
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'stable' '@1659312000'`
+
+## Image: `debian:testing`, `debian:testing-20220801`
+
+| dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
+| - | - | - | - |
+| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/686d9f6eaada08a754bc7abf6f6184c65c5b378f/testing) | `7f10f22663f3f1b26f102192ea8e16d6ab69ba09b2767d64899ffecec8ff3c75` |
+| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/155640b6e2e249dfaeee8795d5de539ef3e49417/testing) | `152f71cff2ec01c8f7f4e023a196e5dd144ca90529ea408eab4a2ee6ff721c8f` |
+| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/60ff0c2c6ce9556e5d8a2758dd2b3f3731716a6f/testing) | `6b5bfb0de460fae9779fa44da8d0420439e7a69f4b13f72898215f9ed999cb94` |
+| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2f108af35e22064c848b8628a7cac56192246dba/testing) | `7f686d4cc4d06360756d55fa6643080d7c7e3877cd8995738cb346f0eb7e0638` |
+| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e4db8aa97f4366e6f27ddbdeaed0773fe0288d47/testing) | `a74322192bb5fc1561a6e62fa6c78b334a6d525c3ccbce103e9b6df669d8623e` |
+| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e28cbd76dcfba10446b1722aebb5a996121e3d27/testing) | `bb86213195071914e2ba14c70d19e16e5645bf768a81c6400ce8e8ca044d1c02` |
+| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/3ba08903ca3fd48fe59ba92b02744a2f5d4d9d6f/testing) | `899d4a17e8b1c92460051f959951b4497bf9ade5fe20c6806a116a0346960528` |
+| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2fddbf8fe632fc5865b140341b68a1358586fff2/testing) | `a00b259c86dbcc584a534a6464f46eb5abfc83c8cbd4d9b8c261f254dcdb177e` |
+
+- Docker Hub: [`debian:testing-20220801`](https://hub.docker.com/_/debian?tab=tags&name=testing-20220801)
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'testing' '@1659312000'`
+
+## Image: `debian:unstable`, `debian:unstable-20220801`
+
+| dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
+| - | - | - | - |
+| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/686d9f6eaada08a754bc7abf6f6184c65c5b378f/unstable) | `d4371748af10ac9334966bb6aa3dbb7b459e6a6a908c653be2a129e3fd5e08c7` |
+| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/155640b6e2e249dfaeee8795d5de539ef3e49417/unstable) | `c79ee7504a312689f39b09c28bf8cea6f6d7271fe2d77632557e729f4a9850c1` |
+| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/60ff0c2c6ce9556e5d8a2758dd2b3f3731716a6f/unstable) | `ff5db1ac93c87697d0a884fead55a4b6fb73978c44b34e6629f1797622885641` |
+| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2f108af35e22064c848b8628a7cac56192246dba/unstable) | `7bc5c5e8fe3eb8c4f73ae65dc1145c71809483fa2e86d97232bd0c86f33d1e09` |
+| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e4db8aa97f4366e6f27ddbdeaed0773fe0288d47/unstable) | `985c1ede27c5e98bf351a3578518c6a3af9b2a68cc330ddd2fabf7888675ca7b` |
+| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/e28cbd76dcfba10446b1722aebb5a996121e3d27/unstable) | `fba1a9dfc13fcd36b7952e9b8fb83ba85d926231943b8366914c1567bbaa03bf` |
+| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/3ba08903ca3fd48fe59ba92b02744a2f5d4d9d6f/unstable) | `e3b115c47f6923ece7629caeb79a92c77612cb6feb20ef700bb011c26798be6e` |
+| `riscv64` | `riscv64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/d8fc3900a6b9c1d571bc8a196954224f6a113ebb/unstable) | `63d247bfe25136275bc24eee3e2720b3e3c7921b24f237f3ae624136c4c8f8fe` |
+| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2fddbf8fe632fc5865b140341b68a1358586fff2/unstable) | `31bcdba8a4172b18496d6b67fbc025069fb72ae24db66d12c9f8a00b2717b142` |
+
+- Docker Hub: [`debian:unstable-20220801`](https://hub.docker.com/_/debian?tab=tags&name=unstable-20220801)
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'unstable' '@1659312000'`
