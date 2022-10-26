@@ -31,7 +31,7 @@ _wget() {
 }
 
 suites=()
-declare -A suiteArches=()
+declare -A archSuites=() suiteArches=()
 declare -A sharedMeta=(
 	[debuerreotype-epoch]=
 	[debuerreotype-version]=
@@ -42,8 +42,8 @@ declare -A dpkgArches=()
 for arch in "${arches[@]}"; do
 	commit="${archCommits[$arch]}"
 
-	archSuites="$(_wget "$rawGitUrl/$commit/suites")"
-	for suite in $archSuites; do
+	archSuites[$arch]="$(_wget "$rawGitUrl/$commit/suites")"
+	for suite in ${archSuites[$arch]}; do
 		if [ -z "${suiteArches[$suite]:-}" ]; then
 			suites+=( "$suite" )
 		fi
@@ -88,13 +88,19 @@ cat <<-EOH
 EOH
 
 echo
-echo '| dpkg | bashbrew | artifacts |'
-echo '| - | - | - |'
+echo '| dpkg | bashbrew | debootstrap | artifacts |'
+echo '| - | - | - | - |'
 for arch in "${arches[@]}"; do
 	dpkgArch="${dpkgArches[$arch]}"
 	archCommit="${archCommits[$arch]}"
 	artifactsLink="$gitHubUrl/tree/$archCommit"
-	echo "| \`$dpkgArch\` | \`$arch\` | [$archCommit]($artifactsLink) |"
+	debootstrap=
+	for archSuite in ${archSuites[$arch]}; do
+		if debootstrap="$(_wget "$rawGitUrl/$archCommit/$archSuite/rootfs.debootstrap-version")" && [ -n "$debootstrap" ]; then
+			break
+		fi
+	done
+	echo "| \`$dpkgArch\` | \`$arch\` | \`${debootstrap:-unknown}\` | [$archCommit]($artifactsLink) |"
 done
 
 echo
