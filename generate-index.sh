@@ -136,6 +136,6 @@ for version in "${suites[@]}"; do
 	done
 
 	echo
-	echo "- Docker Hub: [\`debian:$uniqueTag\`](https://hub.docker.com/_/debian?tab=tags&name=$uniqueTag)"
+	echo "- Docker Hub: [\`debian:$uniqueTag\`](https://hub.docker.com/_/debian/tags?name=$uniqueTag)"
 	echo "- Build Command: \`./examples/debian.sh --arch <dpkg-arch> out/ '$version' '@${sharedMeta[debuerreotype-epoch]}'\`"
 done
