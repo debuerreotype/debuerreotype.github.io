@@ -36,7 +36,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/ab9737c2c114e59cc3978a3fdbb2eaea01cb2667/bookworm) | `549f2309cd7b2e7c987dc65ec9db5310e50a7054db401732e32e95a2036638cd` |
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/f31a4992d87b05630e913a1a6bb12d631d0af410/bookworm) | `9f1c0d2fec027b5372c813fe8b7a46815ff7c4dcfc9c6cfd818db30c58abfe75` |
 
-- Docker Hub: [`debian:bookworm-20221219`](https://hub.docker.com/_/debian?tab=tags&name=bookworm-20221219)
+- Docker Hub: [`debian:bookworm-20221219`](https://hub.docker.com/_/debian/tags?name=bookworm-20221219)
 - Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'bookworm' '@1671408000'`
 
 ## Image: `debian:bullseye`, `debian:bullseye-20221219`, `debian:11.6`, `debian:11`, `debian:latest`
@@ -52,7 +52,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/ab9737c2c114e59cc3978a3fdbb2eaea01cb2667/bullseye) | `af6682aa009f7a9a8567146467698bc77cc017301e0d46abb422877ae398d9c7` |
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/f31a4992d87b05630e913a1a6bb12d631d0af410/bullseye) | `6b02026c07b4806652fac9f1900a30edf1e934beb20033c8f1430827c8ffa411` |
 
-- Docker Hub: [`debian:bullseye-20221219`](https://hub.docker.com/_/debian?tab=tags&name=bullseye-20221219)
+- Docker Hub: [`debian:bullseye-20221219`](https://hub.docker.com/_/debian/tags?name=bullseye-20221219)
 - Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'bullseye' '@1671408000'`
 
 ## Image: `debian:buster`, `debian:buster-20221219`, `debian:10.13`, `debian:10`
@@ -64,7 +64,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/d80386643e2d15ab951a0b2c5f3617f19e437b95/buster) | `751d72b144d995567bab828ea39762ee6d8e3e3d15662e596838e462bc2e1130` |
 | `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/8fc21d39bc69831b690b9d186c62c8d7b1c87047/buster) | `1c89b84bb4aa1d36336882ef845c6ab8ed947e7dad114a72c42950bc1e06a939` |
 
-- Docker Hub: [`debian:buster-20221219`](https://hub.docker.com/_/debian?tab=tags&name=buster-20221219)
+- Docker Hub: [`debian:buster-20221219`](https://hub.docker.com/_/debian/tags?name=buster-20221219)
 - Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'buster' '@1671408000'`
 
 ## Image: `debian:oldstable`, `debian:oldstable-20221219`
@@ -76,7 +76,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/d80386643e2d15ab951a0b2c5f3617f19e437b95/oldstable) | `6d9e7b6e31d44445599737823927d14e2dcd7943569f9a0405feaeab2418cf18` |
 | `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/8fc21d39bc69831b690b9d186c62c8d7b1c87047/oldstable) | `13b825c65f2ee1734e4bfe54eab1ada49e638dd22b24f5f46d721118cdd99048` |
 
-- Docker Hub: [`debian:oldstable-20221219`](https://hub.docker.com/_/debian?tab=tags&name=oldstable-20221219)
+- Docker Hub: [`debian:oldstable-20221219`](https://hub.docker.com/_/debian/tags?name=oldstable-20221219)
 - Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'oldstable' '@1671408000'`
 
 ## Image: `debian:sid`, `debian:sid-20221219`
@@ -93,7 +93,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `riscv64` | `riscv64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/594a1d6cd96bd095427edde648c02b50b643f40b/sid) | `56bcb06b12f89112ad99cbcedb2479faa7c9f150aee8d0bfb78d1a41bc131e80` |
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/f31a4992d87b05630e913a1a6bb12d631d0af410/sid) | `a94045bb6bd66e35802cb1876c44ddbdb3ba0867416d7790d44a7cf130a88868` |
 
-- Docker Hub: [`debian:sid-20221219`](https://hub.docker.com/_/debian?tab=tags&name=sid-20221219)
+- Docker Hub: [`debian:sid-20221219`](https://hub.docker.com/_/debian/tags?name=sid-20221219)
 - Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'sid' '@1671408000'`
 
 ## Image: `debian:stable`, `debian:stable-20221219`
@@ -109,7 +109,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/ab9737c2c114e59cc3978a3fdbb2eaea01cb2667/stable) | `ee6e8553b8b46899f0803748d853a1fc67b3524317c416ad2b753a12a8db62ff` |
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/f31a4992d87b05630e913a1a6bb12d631d0af410/stable) | `56511c23bfbc3dfb7e5ad485bfab33f7703ebb88840a4692c526c4fe9263231b` |
 
-- Docker Hub: [`debian:stable-20221219`](https://hub.docker.com/_/debian?tab=tags&name=stable-20221219)
+- Docker Hub: [`debian:stable-20221219`](https://hub.docker.com/_/debian/tags?name=stable-20221219)
 - Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'stable' '@1671408000'`
 
 ## Image: `debian:testing`, `debian:testing-20221219`
@@ -125,7 +125,7 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/ab9737c2c114e59cc3978a3fdbb2eaea01cb2667/testing) | `6e52bd250e2821921630ae992562954216769ade823ff25c60be91a3cb9dd088` |
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/f31a4992d87b05630e913a1a6bb12d631d0af410/testing) | `7a41d2ed7af25df0b6a4f188eb8fcc794bbbf729a0dd78ccf2e8410161db5661` |
 
-- Docker Hub: [`debian:testing-20221219`](https://hub.docker.com/_/debian?tab=tags&name=testing-20221219)
+- Docker Hub: [`debian:testing-20221219`](https://hub.docker.com/_/debian/tags?name=testing-20221219)
 - Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'testing' '@1671408000'`
 
 ## Image: `debian:unstable`, `debian:unstable-20221219`
@@ -142,5 +142,5 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 | `riscv64` | `riscv64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/594a1d6cd96bd095427edde648c02b50b643f40b/unstable) | `ef0d378d908e020446a56970ccd9f719201406b526548e51db25438da06b6b59` |
 | `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/f31a4992d87b05630e913a1a6bb12d631d0af410/unstable) | `f2b3523323b0692acb2a57e12ab41ccd877c9adb2ed4f5194dfd80e29ef21ae0` |
 
-- Docker Hub: [`debian:unstable-20221219`](https://hub.docker.com/_/debian?tab=tags&name=unstable-20221219)
+- Docker Hub: [`debian:unstable-20221219`](https://hub.docker.com/_/debian/tags?name=unstable-20221219)
 - Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'unstable' '@1671408000'`
