@@ -96,6 +96,22 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 - Docker Hub: [`debian:sid-20230109`](https://hub.docker.com/_/debian/tags?name=sid-20230109)
 - Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'sid' '@1673222400'`
 
+## Image: `debian:stable`, `debian:stable-20230109`
+
+| dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
+| - | - | - | - |
+| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/64b13cf5860ac15c1d909abd7239516db9748fea/stable) | `bc04a1a396f1a364f9eec0496c7351cae61b41e412381c5bd97894c47d4a6300` |
+| `armel` | `arm32v5` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/2394a07e066842f33d48a37e225ba8f1f235ceeb/stable) | `7f301d4ccfb78ff113511852e1a036ded06c6686988267bdf5b1274ed004474c` |
+| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/ff5da72ea2a82ebe0cf6f42a9a061ac5fd6d9cef/stable) | `504a886ed9bba8bb310dfbd72dd5b2909875dbaca7ef5ca4eeaf56e768cebb07` |
+| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/3ade6cb1bf36aabc11c3e84a618d3befeeabb1d2/stable) | `989578518196267074f41fc0fc9a76c95e5d5656b4648a5151e00fd271e288ad` |
+| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/36076b96d1c2341718f6fde9e1305f2918167432/stable) | `ece23eda38129349a5ee49acb83b4c651f7b2183c2113a5605975c713385a9de` |
+| `mips64el` | `mips64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/1895b32f5842ef1a6796d3ab35dc2276d9097437/stable) | `31888affba4d2822ee9c02910e4157ea5aa47260a7152509e1e47b37e5bd0ad2` |
+| `ppc64el` | `ppc64le` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/30440914c03610c17dc193ee21082ef2367cfd50/stable) | `30a74fa7327f0b4f1a2f7c77eae8f58eccb038615b7239e80eb3704d4d15a5dc` |
+| `s390x` | `s390x` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/4ab74be7b724414cf155b038401989cbf7517437/stable) | `b384569f98e35980f9489c6602ab7ab5051ada641b360e6841856f3326a1b4ee` |
+
+- Docker Hub: [`debian:stable-20230109`](https://hub.docker.com/_/debian/tags?name=stable-20230109)
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'stable' '@1673222400'`
+
 ## Image: `debian:testing`, `debian:testing-20230109`
 
 | dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
