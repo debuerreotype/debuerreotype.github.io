@@ -55,6 +55,18 @@ All the artifacts referenced on this page were built with [debuerreotype](https:
 - Docker Hub: [`debian:bullseye-20230904`](https://hub.docker.com/_/debian/tags?name=bullseye-20230904)
 - Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'bullseye' '@1693785600'`
 
+## Image: `debian:buster`, `debian:buster-20230904`, `debian:10.13`, `debian:10`
+
+| dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
+| - | - | - | - |
+| `amd64` | `amd64` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/ae5de12382c86cac52b255b18d834d96238f4d80/buster) | `24760cf85f8554582af1718c3fa359549da968e33cd375f9bcbbff1d9486e20c` |
+| `armhf` | `arm32v7` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/52caf525037957e2baa9986391c2b0d2b9a643b7/buster) | `551aa49927c2298248313f33db66948951475a415565bac905fd411628c64851` |
+| `arm64` | `arm64v8` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/f4612f1daa4f5c4441bdaeccbfb43a616ddb7503/buster) | `a39965a37be57e35ca27c4476f55fd82aeba7024b3fcebe61c66bcbe65cf35fb` |
+| `i386` | `i386` | [link](https://github.com/debuerreotype/docker-debian-artifacts/tree/d458eff5055d3a0ba0aadc49ae43a6f6cdbded33/buster) | `ceac653065b1e1cc5f5008543cd4f94d705b406dcf40ca4b5972163841d03e86` |
+
+- Docker Hub: [`debian:buster-20230904`](https://hub.docker.com/_/debian/tags?name=buster-20230904)
+- Build Command: `./examples/debian.sh --arch <dpkg-arch> out/ 'buster' '@1693785600'`
+
 ## Image: `debian:oldoldstable`, `debian:oldoldstable-20230904`
 
 | dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |
