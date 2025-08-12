@@ -110,7 +110,7 @@ echo "- Snapshot URL: [${sharedMeta[snapshot-url]}](${sharedMeta[snapshot-url]%/
 for version in "${suites[@]}"; do
 	versionArches=( ${suiteArches[$version]} )
 	tokenArch="${versionArches[0]}"
-	if ! _wget --spider "$rawGitUrl/${archCommits[$tokenArch]}/$version/rootfs.tar.xz"; then
+	if ! _wget --spider "$rawGitUrl/${archCommits[$tokenArch]}/$version/rootfs.tar.xz.sha256"; then
 		# likely "experimental" or "rc-buggy" (and thus Dockerfile-only -- no generated rootfs)
 		continue
 	fi
@@ -124,15 +124,18 @@ for version in "${suites[@]}"; do
 	echo "## Image: $tags"
 
 	echo
-	echo '| dpkg | bashbrew | artifacts | SHA256 (`rootfs.tar.xz`) |'
-	echo '| - | - | - | - |'
+	echo '| dpkg | bashbrew | artifacts | OCI manifest digest | SHA256 (`rootfs.tar.xz`) |'
+	echo '| - | - | - | - | - |'
 	for arch in "${versionArches[@]}"; do
 		archCommit="${archCommits[$arch]}"
 		dpkgArch="${dpkgArches[$arch]}"
 
 		rootfsSha256="$(_wget "$rawGitUrl/$archCommit/$version/rootfs.tar.xz.sha256")"
 
-		echo "| \`$dpkgArch\` | \`$arch\` | [link]($gitHubUrl/tree/$archCommit/$version) | \`$rootfsSha256\` |"
+		ociIndex="$(_wget "$rawGitUrl/$archCommit/$version/oci/index.json")"
+		ociDigest="$(jq <<<"$ociIndex" --raw-output '.manifests[0].digest')"
+
+		echo "| \`$dpkgArch\` | \`$arch\` | [link]($gitHubUrl/tree/$archCommit/$version) | [\`$ociDigest\`](https://oci.dag.dev/?image=debian@$ociDigest) | \`$rootfsSha256\` |"
 	done
 
 	echo
